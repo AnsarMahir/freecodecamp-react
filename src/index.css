@@ -6,8 +6,34 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.Nav-items{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.Nav-items > li{
+    padding: 10px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 5px 5px 2px rgb(242, 245, 246);
+
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(190, 190, 190);
+  color: white;
+  text-align: center;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.image{
+  width: 80px;
 }
