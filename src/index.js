@@ -1,40 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Header from './Header';
-import MainContent from './MainComponent';
 import Footer from './Footer';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
 
 
 
 
 
-function Staticpage(){
-  return(
-    <>
-      <Header/>
-      <MainContent/>
-      <Footer/>
-    </>
-  )
-}
+// function Staticpage(){
+//   return(
+//     <>
+//       <Header/>
+//       <MainContent/>
+//       <Footer/>
+//     </>
+//   )
+// }
 
-const id=document.getElementById("root")
-const route = ReactDOM.createRoot(id)
-route.render(
-  <Staticpage/>
-)
+// const id=document.getElementById("root")
+// const route = ReactDOM.createRoot(id)
+// route.render(
+//   <Staticpage/>
+// )
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
